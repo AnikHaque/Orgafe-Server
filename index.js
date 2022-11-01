@@ -31,13 +31,7 @@ app.get('/products', async(req, res) => {
     const hotels = await cursor.toArray();
     res.send(hotels);
 })
-            // GET API FOR SHOWING ALL reservation
-// app.get('/reserve', async(req, res) => {
-//   const cursor = reservecollection.find({});
-//   const hotels = await cursor.toArray();
-//   res.send(hotels);
-// })
-
+       
 // GET API FOR my BOOKED ROOMS & all booked rooms
 app.get('/menubooking', async(req, res) => {
   let query = {};
