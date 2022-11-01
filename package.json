@@ -1,20 +1,40 @@
 {
-  "name": "orgafe-server",
+  "name": "back-end",
   "version": "1.0.0",
-  "description": "",
+  "description": "��#\u0000 \u0000w\u0000a\u0000r\u0000e\u0000h\u0000o\u0000u\u0000s\u0000e\u0000-\u0000m\u0000a\u0000n\u0000a\u0000g\u0000e\u0000m\u0000e\u0000n\u0000t\u0000-\u0000s\u0000e\u0000r\u0000v\u0000e\u0000r\u0000-\u0000s\u0000i\u0000d\u0000e\u0000-\u0000a\u0000r\u0000s\u0000h\u0000a\u0000d\u0000s\u0000a\u0000\r\u0000 \u0000",
   "main": "index.js",
+  "engine": {
+    "node": "16.x"
+  },
   "scripts": {
     "start": "node index.js",
     "start-dev": "nodemon index.js",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start-debug": "set DEBUG=express:* & nodemon index.js"
   },
-  "keywords": [],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ProgrammingHeroWC4/warehouse-management-server-side-arshadsa.git"
+  },
   "author": "",
   "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ProgrammingHeroWC4/warehouse-management-server-side-arshadsa/issues"
+  },
+  "homepage": "https://github.com/ProgrammingHeroWC4/warehouse-management-server-side-arshadsa#readme",
   "dependencies": {
     "cors": "^2.8.5",
-    "dotenv": "^16.0.0",
-    "express": "^4.17.3",
-    "mongodb": "^4.4.1"
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "jsonwebtoken": "^8.5.1",
+    "jsrsasign": "^10.5.27",
+    "jsrsasign-util": "^1.0.5",
+    "mongodb": "^4.11.0",
+    "sslcommerz": "^1.6.6",
+    "stripe": "^10.15.0",
+    "uuid": "^9.0.0",
+    "socket.io": "^4.5.3",
+    "nodemon": "^2.0.20"
+
   }
 }
