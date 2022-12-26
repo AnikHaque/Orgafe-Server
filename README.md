@@ -1,4 +1,4 @@
-# Banking Management App
+# Orgafe Server
 
 **Link to live website:** [Link]().
 
